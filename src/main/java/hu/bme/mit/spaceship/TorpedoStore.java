@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  // Random is created once and used for all firing attempts
   Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
